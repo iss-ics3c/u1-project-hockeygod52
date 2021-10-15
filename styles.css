@@ -7,6 +7,7 @@ body{
 }
 body h1 b{
   justify-content:center;
+  display:flex;
 }
 .main{
   width:100%;
