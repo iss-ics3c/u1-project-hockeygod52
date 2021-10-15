@@ -16,4 +16,27 @@ body{
 .main h1{
   display: flex;
   justify-content: center;
+  padding-top: 2em;
 }
+.contain{
+display: grid;
+  grid-template-columns: auto;
+  grid-gap: 1em;
+  margin: 0 auto;
+  width:80vw;
+  height: max-content;
+  }
+.cells{
+display: flex;
+  flex-direction: column;
+  background:transparent;
+  padding: 1em;
+}
+.cells iframe{
+width: 80%;
+height: 200%;
+}
+@media only screen and (min-width:768px) {.contain{ grid-template-columns:auto auto;}}
+
+
+
