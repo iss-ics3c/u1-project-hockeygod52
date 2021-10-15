@@ -5,3 +5,11 @@
 body{
   background: #d3d3d3;
 }
+.main{
+  width:100%;
+  min-height: calc(100vh - 45px);
+  max-height: max-content;
+  background-image:linear-gradient(rgba(63, 63, 63, 0.4), rgba(243, 243, 243, 1), rgba(63, 63, 63, 0.4), rgba(243, 243, 243, 1));
+  
+  
+}
