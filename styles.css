@@ -8,6 +8,7 @@ body{
 body h1 b{
   justify-content:center;
   display:flex;
+  width: 100%;
 }
 .main{
   width:100%;
