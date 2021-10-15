@@ -10,6 +10,10 @@ body{
   min-height: calc(100vh - 45px);
   max-height: max-content;
   background-image:linear-gradient(rgba(63, 63, 63, 0.4), rgba(243, 243, 243, 1), rgba(63, 63, 63, 0.4), rgba(243, 243, 243, 1));
-  
-  
+  margin-top: 25px;
+  margin-bottom: 20px;
+  }
+.main h1{
+  display: flex;
+  justify-content: center;
 }
