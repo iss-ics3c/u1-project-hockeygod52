@@ -17,6 +17,14 @@ display:flex;
   text-decoration: none;
   color:rgba(243, 243, 243, 1);
   )
+  .nav h3{
+  list-style: none;
+  }
+  .nav h3 a{
+  text-decoration: none;
+    color: rgba(243, 243, 243, 1);
+  }
+    
 .main{
   width:100%;
   min-height: calc(100vh - 45px);
