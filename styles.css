@@ -36,7 +36,13 @@ display: flex;
 width: 80%;
 height: 200%;
 }
-@media only screen and (min-width:768px) {.contain{ grid-template-columns:auto auto;}}
-
-
-
+@media only screen and (min-width:768px) {
+  .contain{ 
+    grid-template-columns:auto auto;
+  }
+}
+@media only screen and (min-width:1000px) {
+  .contain{ 
+    grid-template-columns:auto auto auto;
+  }
+}
