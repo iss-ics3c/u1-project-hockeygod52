@@ -2,14 +2,21 @@
   margin: 0;
   padding: 0;
 }
-body{
-  background: #d3d3d3;
-}
-body h1 b{
-  justify-content:center;
-  display:flex;
+.nav{
+display:flex;
+  justify-content:space-around;
+  background: rgba(63, 63, 63,  0.8);
   width: 100%;
+  height: 25px;
+  position: fixed;
+  top:0;
 }
+.nav li{list-style: none;
+}
+.nav li a{
+  text-decoration: none;
+  color:rgba(243, 243, 243, 1);
+  )
 .main{
   width:100%;
   min-height: calc(100vh - 45px);
